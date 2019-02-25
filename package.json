@@ -1,6 +1,6 @@
 {
   "name": "Readit",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Master Electron Course Project",
   "main": "main.js",
   "author": "lokunlim",
@@ -17,13 +17,16 @@
       "buildResources": "."
     },
     "mac": {
+      "pulish": ["github"],
       "category": "public.app-category.productivity",
       "target": "dmg"
     },
     "win": {
+      "pulish": ["github"],
       "target": "nsis"
     },
     "linux": {
+      "pulish": ["github"],
       "category": "Network"
     }
   },
