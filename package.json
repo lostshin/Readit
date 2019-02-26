@@ -17,16 +17,14 @@
       "buildResources": "."
     },
     "mac": {
-      "pulish": ["github"],
+      "publish": ["github"],
       "category": "public.app-category.productivity",
-      "target": "dmg"
     },
     "win": {
-      "pulish": ["github"],
-      "target": "nsis"
+      "publish": ["github"]
     },
     "linux": {
-      "pulish": ["github"],
+      "publish": ["github"],
       "category": "Network"
     }
   },
